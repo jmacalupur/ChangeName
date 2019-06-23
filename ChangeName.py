@@ -30,8 +30,8 @@ def _change_filename():
 
 
 if __name__ == '__main__':
-    old_name = input('Coloca la fecha antigua del archivo: ')
-    new_name = input('Coloca la fecha nueva del archivo: ')
+    old_name = input('Valor a Buscar: ')
+    new_name = input('Reemplazarlo por: ')
     _create_list()
     _create_list_updated()
     _change_filename()
